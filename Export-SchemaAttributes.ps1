@@ -19,7 +19,7 @@
     .\Export-SchemaAttributes.ps1 -CsvPath C:\temp\UserAttributes.csv -Path C:\temp\SchemaAttributes.json
 
 .EXAMPLE
-    .\Export-SchemaAttributes.ps1 -Identity AN0281 -Path C:\temp\SchemaAttributes.json
+    .\Export-SchemaAttributes.ps1 -Identity jdoe -Path C:\temp\SchemaAttributes.json
 #>
 #Requires -Modules ActiveDirectory
 [CmdletBinding(DefaultParameterSetName = 'Csv')]

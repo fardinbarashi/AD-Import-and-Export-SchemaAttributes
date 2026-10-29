@@ -2,7 +2,6 @@
 
 PowerShell scripts that copy the schema attributes production users have, including Exchange and custom schema extensions, into another forest's schema. Typically used to build a test environment where users can hold the same data as in production, even without an Exchange server.
 
-
 | Script | Run in | What it does |
 |---|---|---|
 | `Export-SchemaAttributes.ps1` | Source (e.g. production) | Exports the schema definitions of a user's attributes to a JSON file |
